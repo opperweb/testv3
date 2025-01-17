@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+  }
+  
+  
+  .horizontal-menu {
+    list-style: none;
+    display:flex;
+    justify-content: space-between;
+    padding:1rem;
+    background-color: black;
+    color: white;
+  }
+  
+  .left-items{
+    display: flex;
+  }
+  
+  .right-items{
+    display: flex;
+  }
+  
+  #item-menu-horizontal-btn {
+    cursor:pointer;
+    margin: 0.5rem ;
+    padding: 1rem;
+    border:1px solid;
+    border-radius: 20px;
+    font-family: "Inter", serif;
+  }
+  
+  #item-menu-horizontal-circle {
+    cursor:pointer;
+    margin: 0.5rem ;
+    padding: 1rem;
+  
+  }
+  
+  #item-menu-horizontal-logo {
+    cursor:pointer;
+    margin: 0.5rem ;
+    padding: 1rem;
+    font-family: "Dancing Script", serif;
+  }
+  
+  #item-menu-horizontal-sponsor {
+    cursor:pointer;
+    margin: 0.5rem ;
+    padding: 1rem;
+    font-family: "Pacifico", serif;
+    
+  }
+  
+  .vertical-menu{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem ;
+    background-color: black;
+    width: 20%;
+    height: 100vh;
+  }
+  
+  #item-menu-vertical{
+    padding: 1rem;
+    font-family: "Inter", serif;
+    color: white;
+    
+  }
+  
+  .item-menu-vertical:hover{
+    cursor:pointer;
+    text-decoration-line: underline;
+    color: white;
+  }
+  
+  .card{
+    color:black;
+    display: flex;
+    flex-direction: column;
+    font-family: "Inter", serif;
+    padding: 1rem;
+  
+    position: absolute;
+    bottom: 60%;
+    left:30%;
+  
+    border: 1px solid;
+    border-radius: 20px;
+    box-shadow: 5px 5px 0;
+  
+  
+  }
